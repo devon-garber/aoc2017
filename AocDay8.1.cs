@@ -135,17 +135,5 @@ namespace Aoc
                     throw new InvalidOperationException();
             }
         }
-
-        private class Register
-        { 
-            public int Value { get; set; }
-            public string Name { get; set; }
-
-            public Register(int value, string name)
-            {
-                this.Value = value;
-                this.Name = name;
-            }
-        }
     }
 }
